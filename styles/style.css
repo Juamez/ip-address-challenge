@@ -71,7 +71,7 @@ button {
 }
 
 #map {
-  height: 400px;
+  height: 600px;
   
 }
 
@@ -86,4 +86,15 @@ footer {
 footer a {
   text-decoration: none;
   color: hsl(0, 0%, 46%);
+}
+
+@media (min-width: 768px) {
+  body {
+    height: 100vh;
+  }
+  .flex-card {
+    position: relative;
+    height: 400px;
+    z-index: 3;
+  }
 }
